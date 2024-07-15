@@ -4,7 +4,7 @@ document.getElementById("adauga").addEventListener("click", function() {
     var textColor = document.getElementById("culoare-text").value;
     var bgColor = document.getElementById("culoare-background").value;
     
-    // Crează un nou element
+
     var newElement;
     if (elementType === "box" || elementType === "cerc") {
         newElement = document.createElement("div");
